@@ -1,5 +1,14 @@
 import React from 'react';
 
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
 const Target = ({ x = 0, y = 0, value = 0, onClick = () => {} }) => (
   <div
     style={{
@@ -11,7 +20,7 @@ const Target = ({ x = 0, y = 0, value = 0, onClick = () => {} }) => (
       textAlign: 'center',
       lineHeight: '25px',
       cursor: 'pointer',
-      backgroundColor: '#FFD065'
+      backgroundColor: getRandomColor()
     }}
     onClick={onClick}
   >

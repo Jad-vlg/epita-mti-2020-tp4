@@ -1,14 +1,14 @@
-date: sometimes before 01/07/2019 23:59.
-subject: [MTI][js] tp4 <InsertLoginHere>
+date: 01/07/2019 22:00.
+subject: [MTI][js] tp4 khalil_j
 body:
 
-Hello, my name is <InsertFirstname> <InsertLastname>,
+Hello, my name is Jad KHALIL,
 
 here is the git repository to my project:
 
 - tp4: <InsertGitAddressToTP5>
 
-<InsertPolitenessHere>
+Cordialement
 
 --
-<InsertSignatureHere>
+khalil_j
